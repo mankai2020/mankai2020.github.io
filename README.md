@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# Kai Man · Personal Research Homepage
 
-You can use the [editor on GitHub](https://github.com/mankai2020/mankai2020.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+一个面向 GitHub Pages 的英文科研主页，集中介绍 Kai Man 作为第一作者发表的同行评议论文。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 收录论文
 
-### Markdown
+- *Tropical oceans drive decadal trends in surface mass balance over Wilkes Land, East Antarctica* — Climate Dynamics (2026)
+- *Uncertainty in Antarctic precipitation projections under global warming* — Environmental Research Letters (2026)
+- *Century-long West Antarctic snow accumulation changes induced by tropical teleconnections* — Science Advances (2025)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+这是一个不依赖框架或构建工具的静态页面。论文内容直接维护在 `index.html`，视觉样式位于 `styles.css`。
 
-```markdown
-Syntax highlighted code block
+## 本地预览
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+python3 -m http.server 8000
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+访问 `http://localhost:8000`。
 
-### Jekyll Themes
+## GitHub Pages
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mankai2020/mankai2020.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+`.github/workflows/pages.yml` 会在内容推送到 `main` 分支后自动部署主页。仓库的 **Settings → Pages → Source** 需要设置为 **GitHub Actions**。
