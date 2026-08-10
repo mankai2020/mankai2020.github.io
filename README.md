@@ -8,7 +8,7 @@
 - *Uncertainty in Antarctic precipitation projections under global warming* — Environmental Research Letters (2026)
 - *Century-long West Antarctic snow accumulation changes induced by tropical teleconnections* — Science Advances (2025)
 
-这是一个不依赖框架或构建工具的静态页面。论文内容直接维护在 `index.html`，视觉样式位于 `styles.css`。
+这是一个不依赖框架或构建工具的静态页面。论文内容直接维护在 `index.html`，视觉样式位于 `styles.css`。论文核心图位于 `assets/figures`，站内 PDF 位于 `assets/papers`。
 
 ## 本地预览
 
